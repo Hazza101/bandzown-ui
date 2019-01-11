@@ -10,7 +10,7 @@ import bandsReducer from '../reducers/bands';
 import BandsList from '../components/bandslist';
 
 const client = axios.create({
-  baseURL: 'https://bandzown.herokuapp.com',
+  baseURL: 'https://music505.herokuapp.com',
   responseType: 'json'
 });
 

@@ -39,7 +39,7 @@ export class BandDetail extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 0,
+    padding: 16,
   },
   row: {
     flex: 1,

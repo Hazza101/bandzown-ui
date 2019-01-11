@@ -3,7 +3,7 @@ import { StyleSheet, SafeAreaView, StatusBar, View, Text, Button } from "react-n
 
 export class HomeView extends Component {
   static navigationOptions = {
-    title: 'Home',
+    title: 'home',
   };
 
   render() {
@@ -14,10 +14,17 @@ export class HomeView extends Component {
 
         />
         <View style = {styles.viewContent}>
-          <Text style = {styles.viewTitle}>Home Screen</Text>
           <Button
-            title="Go to Bands"
+            title="Find Musicians"
             onPress={() => this.props.navigation.navigate('Bands')}
+            color="#841584"
+          />
+
+
+
+          <Button
+            title="My account"
+            onPress={() => this.props.navigation.navigate('MyAccount')}
           />
         </View>
       </SafeAreaView>
@@ -33,9 +40,9 @@ const styles = StyleSheet.create({
     marginTop: 100,
     marginBottom: 100,
     flex: 1,
-    flexDirection: "column",
+    flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "space-around"
   },
   viewTitle: {
     fontSize: 30

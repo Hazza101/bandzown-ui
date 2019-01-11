@@ -40,13 +40,17 @@ export class NewBandForm extends Component {
                 genre: '',
               }}
 
-        onSubmit = {({ name, genre }) => {
+        onSubmit = {({ name, genre, number_of_members,  number_of_followers }) => {
           console.log(`name: ${name}`);
           console.log(`genre: ${genre}`);
+          console.log(`number_of_members: ${number_of_members}`);
+          console.log(`number_of_followers: ${number_of_followers}`);
           console.log(`status: ${this.state.status}`)
           const band = {
             name: name,
-            genre: genre
+            genre: genre,
+            number_of_members: number_of_members,
+            number_of_fans: number_of_followers
           }
           this.props.postBand(band);
         }}
@@ -81,6 +85,28 @@ export class NewBandForm extends Component {
             <Field
               component = { FKTextInput }
               name = "genre"
+              disabled = { isSubmitting }
+            />
+
+            <Text
+              style = { styles.formLabel }
+            >
+              Number of followers:
+            </Text>
+            <Field
+              component = { FKTextInput }
+              name = "number_of_followers"
+              disabled = { isSubmitting }
+            />
+
+            <Text
+              style = { styles.formLabel }
+            >
+              Number of members:
+            </Text>
+            <Field
+              component = { FKTextInput }
+              name = "number_of_members"
               disabled = { isSubmitting }
             />
 
