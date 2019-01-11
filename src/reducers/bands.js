@@ -1,6 +1,6 @@
-export const GET_BANDS = 'bandzown.herokuapp.com/bands/LOAD';
-export const GET_BANDS_SUCCESS = 'bandzown.herokuapp.com/bands/LOAD_SUCCESS';
-export const GET_BANDS_FAIL = 'bandzown.herokuapp.com/bands/LOAD_FAIL';
+export const GET_BANDS = 'music505.herokuapp.com/bands/LOAD';
+export const GET_BANDS_SUCCESS = 'music505.herokuapp.com/bands/LOAD_SUCCESS';
+export const GET_BANDS_FAIL = 'music505.herokuapp.com/bands/LOAD_FAIL';
 
 // export default function reducer(state = { repos: {movies: []} }, action) {
 export default function bandsReducer(state = { bands: [] }, action) {

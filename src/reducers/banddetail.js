@@ -1,6 +1,6 @@
-export const GET_BANDDETAIL = 'bandzown.herokuapp.com/banddetail/LOAD';
-export const GET_BANDDETAIL_SUCCESS = 'bandzown.herokuapp.com/banddetail/LOAD_SUCCESS';
-export const GET_BANDDETAIL_FAIL = 'bandzown.herokuapp.com/banddetail/LOAD_FAIL';
+export const GET_BANDDETAIL = 'music505.herokuapp.com/banddetail/LOAD';
+export const GET_BANDDETAIL_SUCCESS = 'music505.herokuapp.com/banddetail/LOAD_SUCCESS';
+export const GET_BANDDETAIL_FAIL = 'music505.herokuapp.com/banddetail/LOAD_FAIL';
 
 // export default function reducer(state = { detail: {} }, action) {
 //   return state;

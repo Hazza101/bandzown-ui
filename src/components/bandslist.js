@@ -60,7 +60,7 @@ export class BandsList extends Component {
           )}
           underlayColor="white"
           >
-          <Text>&gt;</Text>
+          <Text>&lt;</Text>
         </TouchableHighlight>
       </View>
     )

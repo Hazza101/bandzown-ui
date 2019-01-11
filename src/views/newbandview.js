@@ -11,7 +11,7 @@ import newBandReducer from '../reducers/newband';
 
 
 const client = axios.create({
-  baseURL: 'https://bandzown.herokuapp.com',
+  baseURL: 'https://music505.herokuapp.com',
   responseType: 'json'
 });
 

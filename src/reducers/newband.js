@@ -1,6 +1,6 @@
-export const POST_BAND = 'bandzown.herokuapp.com/bands/POST';
-export const POST_BAND_SUCCESS = 'bandzown.herokuapp.com/bands/POST_SUCCESS';
-export const POST_BAND_FAIL = 'bandzown.herokuapp.com/bands/POST_FAIL';
+export const POST_BAND = 'music505.herokuapp.com/bands/POST';
+export const POST_BAND_SUCCESS = 'music505.herokuapp.com/bands/POST_SUCCESS';
+export const POST_BAND_FAIL = 'music505.herokuapp.com/bands/POST_FAIL';
 
 // export default function reducer(state = { detail: {} }, action) {
 //   return state;

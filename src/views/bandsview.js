@@ -25,7 +25,7 @@ export class BandsView extends Component {
           <Button
             onPress={() => navigation.navigate('NewBand')}
             title="Add"
-            color="#fff"
+            color="#f4511e"
           />
         ),
       };
